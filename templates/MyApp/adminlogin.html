@@ -23,7 +23,7 @@
                         <h4>New Admin? <a href="{% url 'MyApp:adminsignup' %}">Register Here!</a></h4><br>
                          <form action="{% url 'MyApp:adminlogin' %}" method="POST">
                             {% csrf_token %}
-                            {{ form|crispy }}
+                            
                             <label for="username">Username:</label>
                             <input type="username" name="username" placeholder="Enter Username">
                             <br><br>
