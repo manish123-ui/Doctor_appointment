@@ -5,10 +5,6 @@ echo "🚀 Starting Django Deployment..."
 # Stop the script on any error
 set -e
 
-# 1. Activate virtual environment (if using one)
-echo "📦 Activating virtual environment..."
-source envl/bin/activate  # change "envl" to your virtualenv name
-
 # 2. Install dependencies
 echo "📥 Installing Python dependencies..."
 pip install -r requirements.txt
