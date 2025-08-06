@@ -10,7 +10,7 @@ SECRET_KEY = 'jk+i9p!-!o4b*m@0nba-x7sl^b%_(6^oio84(xn&(l#5-68ay@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'doctor-appointment-vsij.onrender.com']
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
